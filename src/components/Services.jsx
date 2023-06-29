@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div id="services" className="bg-test1 py-5">
+    <div id="services" className="border border-b-onyx py-5">
       <div className="text-center">
         <h2 className="text-5xl py-3">Services</h2>
         <ul className="text-2xl">
