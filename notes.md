@@ -4,5 +4,3 @@
 -page: contact
 
 - TODOS:
-
-1. FIGURE OUT HOW TO DISPLAY PDF LICENSES ON SITE

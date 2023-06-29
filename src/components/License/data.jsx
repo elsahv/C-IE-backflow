@@ -8,7 +8,7 @@ import sanBern from "../../assets/license-screenshots/san-bern.png";
 const content = [
   {
     id: 1,
-    image: Chino,
+    image: Rancho,
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const content = [
   },
   {
     id: 4,
-    image: Rancho,
+    image: sanBern,
   },
   {
     id: 5,
@@ -28,7 +28,7 @@ const content = [
   },
   {
     id: 6,
-    image: sanBern,
+    image: Chino,
   },
 ];
 
