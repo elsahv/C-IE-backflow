@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        onyx: "#35373d",
+        parchment: "#f0ead2",
+        test1: "maroon",
+        test2: "aquamarine",
+      },
+    },
   },
   plugins: [],
 };

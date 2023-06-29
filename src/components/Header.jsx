@@ -1,13 +1,21 @@
+import Logo from "../assets/logo.png";
+
 const Header = () => {
   return (
-    <div className="flex justify-center">
-      <h1 className="font-bold text-3xl mr-3">IE- Backflow</h1>
-      <ul className="flex items-end justify-between w-72 pb-1 ml-2 text-lg">
-        <li>about</li>
-        <li>services</li>
-        <li>Contact</li>
-      </ul>
-    </div>
+    <header className="border-onyx border-b-2 w-full py-3">
+      <div className="flex justify-around">
+        <a href="/">
+          <img src={Logo} alt="Generations Backflow" />
+        </a>
+        <div className="flex items-end">
+          <div className="w-72 pb-1 ml-2 text-lg flex justify-between">
+            <a href="/#about">about</a>
+            <a href="/#services">services</a>
+            <a href="/#contact">contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 
