@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        onyx: "#35373d",
-        parchment: "#f0ead2",
+        primary: "#284b63",
+        secondary: "#fdfcdc",
         test1: "maroon",
         test2: "aquamarine",
       },

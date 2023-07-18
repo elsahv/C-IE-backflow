@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import ContactForm from "./ContactForm";
 const contact = () => {
   return (
-    <div id="contact" className="py-5 bg-onyx">
+    <div id="contact" className="py-5 text-primary">
       <div className="grid 2xl:grid-cols-2 grid-cols-1">
         {/* //todo: list */}
         <div className="text-center pt-5">
@@ -19,7 +19,6 @@ const contact = () => {
             </div>
           </div>
         </div>
-        {/* //todo: form */}
         <ContactForm />
       </div>
     </div>

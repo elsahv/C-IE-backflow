@@ -11,7 +11,7 @@ const Hero = () => {
           alt=""
           className="border border-black"
         />
-        <div className="mx-5">
+        <div className="mx-5 text-secondary">
           <h2 className="text-4xl font-bold">Have a burst pipe?</h2>
           <p className="text-2xl">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati

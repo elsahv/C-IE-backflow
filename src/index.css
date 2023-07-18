@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 * {
-    /* background: #d6ccc2; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,4 +15,13 @@ h2 {
 
 section {
     height: 100vh;
+    background: #284b63;
+}
+
+input {
+    background: #284b63;
+}
+
+textarea {
+    background:#284b63;
 }

@@ -35,9 +35,9 @@ export const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="border border-b-onyx">
+    <section id="services" className="text-secondary flex justify-center">
       <div className="text-center">
-        <h2 className="text-5xl py-3">Services</h2>
+        <h2 className="text-5xl py-3 underline">Services</h2>
         {services.map((item) => (
           <div key={item.id}>
             <p className="text-2xl">{item.serviceItem}</p>

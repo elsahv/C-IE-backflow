@@ -12,9 +12,11 @@ const About = () => {
           alt=""
           className="border border-black"
         />
-        <div className="mx-5">
-          <h2 className="text-4xl font-bold">About Generations Backflow</h2>
-          <p className="text-2xl">
+        <div className="mx-5 text-secondary">
+          <h2 className="text-4xl font-bold underline">
+            About Generations Backflow
+          </h2>
+          <p className="text-2xl pt-3 pr-5">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
             eum consequatur modi sapiente nulla animi, sit deleniti nesciunt
             inventore rem, quasi voluptas qui. Quisquam cupiditate facilis
