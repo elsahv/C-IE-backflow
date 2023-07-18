@@ -1,20 +1,50 @@
+export const services = [
+  {
+    id: 1,
+    serviceItem: "service 1",
+  },
+  {
+    id: 2,
+    serviceItem: "service 2",
+  },
+  {
+    id: 3,
+    serviceItem: "service 3",
+  },
+  {
+    id: 4,
+    serviceItem: "service 4",
+  },
+  {
+    id: 5,
+    serviceItem: "service 5",
+  },
+  {
+    id: 6,
+    serviceItem: "service 6",
+  },
+  {
+    id: 7,
+    serviceItem: "service 7",
+  },
+  {
+    id: 8,
+    serviceItem: "service 8",
+  },
+];
+
 const Services = () => {
   return (
-    <div id="services" className="border border-b-onyx py-5">
+    <section id="services" className="border border-b-onyx">
       <div className="text-center">
         <h2 className="text-5xl py-3">Services</h2>
-        <ul className="text-2xl">
-          <li>service 1</li>
-          <li>service 2</li>
-          <li>service 3</li>
-          <li>service 4</li>
-          <li>service 5</li>
-          <li>service 6</li>
-          <li>service 7</li>
-          <li>service 8</li>
-        </ul>
+        {services.map((item) => (
+          <div key={item.id}>
+            <p className="text-2xl">{item.serviceItem}</p>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
 };
 

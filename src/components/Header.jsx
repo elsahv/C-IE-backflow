@@ -2,7 +2,7 @@ import Logo from "../assets/logo.png";
 
 const Header = () => {
   return (
-    <header className="border-onyx border-b-2 w-full py-3">
+    <header className="border-onyx border-b-2 w-full sticky top-0 py-3 bg-white">
       <div className="flex justify-around">
         <a href="/">
           <img src={Logo} alt="Generations Backflow" />
